@@ -5,7 +5,7 @@ import "fmt"
 var c, python, java bool // fonksiyon dışında "var" keywordü ile liste olarak tanımlanabilir
 
 func main() {
-	var i, j int = 1, 2 //
+	var i, j int = 1, 2 // bir değer seçmezsek her veri tipi için default atar
 	k := 3
 	c, python, java := true, false, "no!" // := ile otomatik type belirleme (C# var gibi)
 
