@@ -6,7 +6,7 @@ func add(x int, y int) int { // diğer dillerden farklı olarak önce değişken
 	return x + y
 }
 
-func split(sum int) (x, y int) {
+func split(sum int) (x, y int) { // (int, int) olarak da tanımlayıp "return x, y" diyebilirdik
 	x = sum * 4 / 9
 	y = sum - x
 	return
